@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+//gitgit
+
+
 typedef struct {
 	int data;
 	struct Node* under;
@@ -44,8 +47,6 @@ int main(void) {
 	top = (Node*)malloc(sizeof(Node));
 	top->data = -1;
 	top->under = NULL;
-	add(top);
-	add(top);
 	add(top);
 	add(top);
 	add(top);
